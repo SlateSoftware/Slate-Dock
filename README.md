@@ -1,2 +1,3 @@
 # Slate-Dock
-Dock for Slate Desktop One.
+This repository will contain the files for the **Dock** of the Slate Desktop One desktop environment.
+Keep in mind we're still working on the whole project.
