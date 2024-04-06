@@ -24,12 +24,48 @@ viewType=0
 visibility=2
 wallpaperplugin=org.kde.image
 
+
+
+[Containments][1][Applets][59][Configuration]
+SeparatorAlignment=Center
+SeparatorStyle=Grid
+SeparatorWidth=1
+
+[Containments][1][Applets][60]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][1][Applets][60][Configuration]
+PreloadWeight=0
+
+[Containments][1][Applets][61]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][1][Applets][61][Configuration]
+PreloadWeight=0
+
+[Containments][1][Applets][62]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][1][Applets][62][Configuration]
+PreloadWeight=79
+SystrayContainmentId=30
+
+[Containments][1][Applets][63]
+immutability=1
+plugin=org.kde.latte.separator
+
+
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.latte.plasmoid
 
 [Containments][1][Applets][2][Configuration]
 PreloadWeight=0
+
+
 
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
@@ -58,9 +94,12 @@ useCustomSizeGrid=true
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][1][Applets][59]
-immutability=1
-plugin=org.kde.latte.separator
+
+
+[Containments][1][Applets][63][Configuration]
+SeparatorAlignment=Center
+SeparatorStyle=Grid
+SeparatorWidth=1
 
 [Containments][1][ConfigDialog]
 DialogHeight=600
@@ -72,7 +111,7 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=49;2;59;57
+appletOrder=49;2;59;60;61;62;63;57
 appletShadowsEnabled=false
 backgroundRadius=25
 backgroundShadowSize=4
@@ -93,4 +132,4 @@ titleTooltips=false
 userBlocksColorizingApplets=49;57
 zoomLevel=2
 backgroundOpacity=100
-backgroundColor=#FFFFFF 
+backgroundColor=#FFFFFF
