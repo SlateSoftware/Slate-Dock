@@ -46,9 +46,9 @@ DialogWidth=720
 animateScrollSpeed=250
 dimming=50
 favoritesPortedToKAstats=true
-iconSize=100
-spaceHeight=10
-spaceWidth=10
+iconSize=60
+spaceHeight=5
+spaceWidth=5
 useCustomSizeGrid=true
 
 [Containments][1][Applets][57]
@@ -78,14 +78,6 @@ plugin=org.kde.plasma.digitalclock
 [Containments][1][Applets][61][Configuration]
 PreloadWeight=0
 
-[Containments][1][Applets][62]
-immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][1][Applets][62][Configuration]
-PreloadWeight=79
-SystrayContainmentId=30
-
 [Containments][1][Applets][63]
 immutability=1
 plugin=org.kde.latte.separator
@@ -102,26 +94,6 @@ plugin=org.kde.plasma.taskmanager
 [Containments][1][Applets][64][Configuration]
 PreloadWeight=70
 
-[Containments][1][Applets][65]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][1][Applets][65][Configuration][Appearance]
-chartFace=org.kde.ksysguard.linechart
-showTitle=false
-
-[Containments][1][Applets][65][Configuration][ConfigDialog]
-DialogHeight=889
-DialogWidth=720
-
-[Containments][1][Applets][65][Configuration][FaceGrid][Appearance]
-chartFace=org.kde.ksysguard.linechart
-showTitle=false
-
-[Containments][1][Applets][65][Configuration][Sensors]
-highPrioritySensorIds=["cpu/cpu0/system","cpu/cpu0/user","cpu/cpu0/temperature","cpu/cpu1/system","cpu/cpu1/user","cpu/cpu1/temperature","cpu/cpu2/temperature","cpu/cpu2/system","cpu/cpu2/user","cpu/cpu3/system","cpu/cpu3/user","cpu/cpu3/temperature","cpu/cpu4/system","cpu/cpu4/user","cpu/cpu4/temperature","cpu/cpu5/system","cpu/cpu5/user","cpu/cpu5/temperature","cpu/cpu6/system","cpu/cpu6/user","cpu/cpu6/temperature","cpu/cpu7/system","cpu/cpu7/user","cpu/cpu7/temperature","cpu/cpu8/system","cpu/cpu8/user","cpu/cpu8/temperature","cpu/cpu9/system","cpu/cpu9/user","cpu/cpu9/temperature","cpu/cpu10/user","cpu/cpu10/system","cpu/cpu10/temperature","cpu/cpu11/system","cpu/cpu11/user","cpu/cpu11/temperature","cpu/cpu12/system","cpu/cpu12/user","cpu/cpu12/temperature","cpu/cpu13/system","cpu/cpu13/user","cpu/cpu13/temperature","cpu/cpu14/system","cpu/cpu14/user","cpu/cpu14/temperature","cpu/cpu15/system","cpu/cpu15/user","cpu/cpu15/temperature"]
-lowPrioritySensorIds=[]
-
 [Containments][1][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -132,7 +104,7 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=49;2;59;60;61;62;63;64;57;65
+appletOrder=49;2;60;61;59;49;64;57;63
 appletShadowsEnabled=false
 backgroundRadius=25
 backgroundShadowSize=4
@@ -153,4 +125,4 @@ titleTooltips=false
 userBlocksColorizingApplets=49;57
 zoomLevel=2
 backgroundOpacity=100
-backgroundColor=#FFFFFF 
+backgroundColor=#FFFFFF  /* White Background Color */
