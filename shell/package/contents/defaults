@@ -1,5 +1,0 @@
-[Panel]
-Containment=org.kde.latte.containment
-
-[Panel][ContainmentActions]
-RightButton;NoModifier=org.kde.latte.contextmenu
