@@ -63,10 +63,12 @@ if [ "$input" == 'y' ]; then
     echo "latte-dock is already installed."
     echo ""
     echo ""
-    echo "You can now exit from the script by pressing CTRL+C."
     echo "You'll have to start latte-dock from the terminal."
     exit
 else
+    latte-dock --import-layout ./latte/Slate_Desktop_Dock.layout.latte >/dev/null 2>&1
+    latte-dock --layout Slate_Desktop_Dock >/dev/null 2>&1
+    latte-dock --enable-autostart >/dev/null 2>&1
     echo "Alright, bye!"
     exit
 fi
