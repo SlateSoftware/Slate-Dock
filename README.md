@@ -3,4 +3,4 @@ This repository will contain the files for the **Dock** of the Slate Desktop One
 Keep in mind we're still working on the whole project.
 
 ## How to install 
-You can install **latte-dock** by run the script **install.sh++. Remember to make the file executable
+You can install **latte-dock** by run the script **install.sh**. Remember to make the file executable: sudo chmod a+x install.sh
