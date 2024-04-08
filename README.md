@@ -8,6 +8,4 @@ You can install **latte-dock** by run the script **install.sh**. Remember to mak
 ```bash
 sudo chmod a+x install.sh
 ```
-```bash
-sudo chmod a+x LinuxEFIMounter.sh
-```
+
