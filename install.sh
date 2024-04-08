@@ -29,7 +29,7 @@ if [ "$input" == 'y' ]; then
 #         fi
     fi
     if [ "$PM" == "ns" ]; then
-        echo "Supported package managers are APT and PACMAN."
+        echo "Supported package managers are APT."
         echo "Yours doesn't seem to be supported yet."
         exit
     fi
