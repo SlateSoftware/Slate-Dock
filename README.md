@@ -1,4 +1,6 @@
 # Slate Dock
+**Crappy latte-dock skin that resembles Slate Desktop's dock**
+
 This repository will contain the files for the **Dock** of the Slate Desktop One desktop environment.
 Keep in mind we're still working on the whole project.
 
